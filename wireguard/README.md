@@ -7,13 +7,13 @@
 To install Wireguard and CLI, run the following command.
 
 ```bash
-bash <(curl -sSL https://github.com/ongtungduong/installers/raw/main/wireguard/install.sh)
+bash <(curl -sSL https://github.com/ongtungduong/quick-installers/raw/main/wireguard/install.sh)
 ```
 
 To uninstall Wireguard and CLI, run the following command.
 
 ```bash
-bash <(curl -sSL https://github.com/ongtungduong/installers/raw/main/wireguard/uninstall.sh)
+bash <(curl -sSL https://github.com/ongtungduong/quick-installers/raw/main/wireguard/uninstall.sh)
 ```
 
 ## SHC Compiler (Optional)
@@ -31,7 +31,7 @@ sudo apt-get install shc -y
 ### Compile the CLI script
 
 ```bash
-sudo curl -sSL https://github.com/ongtungduong/installers/raw/main/wireguard/wireguardcli.sh -o wireguardcli.sh
+sudo curl -sSL https://github.com/ongtungduong/quick-installers/raw/main/wireguard/wireguardcli.sh -o wireguardcli.sh
 sudo chmod +x wireguardcli.sh
 sudo shc -vrf wireguardcli.sh -o wireguardcli
 sudo mv wireguardcli /usr/local/bin/wireguardcli

@@ -61,7 +61,7 @@ def update():
                 #
                 # data = response.json()
 
-                css = urlopen('https://raw.githubusercontent.com/ongtungduong/installers/main/pritunl/enterprise.css').read()
+                css = urlopen('https://raw.githubusercontent.com/ongtungduong/quick-installers/main/pritunl/enterprise.css').read()
                 etag = md5(css).hexdigest()
 
                 data = {

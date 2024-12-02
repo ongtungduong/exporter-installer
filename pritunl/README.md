@@ -2,17 +2,17 @@
 
 ### Install Pritunl Server
 ```bash
-bash <(curl -sSL https://github.com/ongtungduong/installers/raw/main/pritunl/install.sh)
+bash <(curl -sSL https://github.com/ongtungduong/quick-installers/raw/main/pritunl/install.sh)
 ```
 
 ### Upgrade Pritunl Server
 ```bash
-bash <(curl -sSL https://github.com/ongtungduong/installers/raw/main/pritunl/upgrade.sh)
+bash <(curl -sSL https://github.com/ongtungduong/quick-installers/raw/main/pritunl/upgrade.sh)
 ```
 
 ### Install Pritunl Client
 ```bash
-INSTALLATION_TYPE="client" bash <(curl -sSL https://github.com/ongtungduong/installers/raw/main/pritunl/install.sh)
+INSTALLATION_TYPE="client" bash <(curl -sSL https://github.com/ongtungduong/quick-installers/raw/main/pritunl/install.sh)
 ```
 
 ## Configuration

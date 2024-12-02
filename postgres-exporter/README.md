@@ -3,7 +3,7 @@
 Run the following command to install postgres exporter on your Ubuntu server:
 
 ```bash
-bash <(curl -sSL https://github.com/ongtungduong/installers/raw/main/postgres-exporter/install.sh)
+bash <(curl -sSL https://github.com/ongtungduong/quick-installers/raw/main/postgres-exporter/install.sh)
 ```
 
 **You can customize the installation by setting environment variables:**
@@ -16,7 +16,7 @@ bash <(curl -sSL https://github.com/ongtungduong/installers/raw/main/postgres-ex
 **For example, to use port 17018, run the following command:**
 
 ```bash
-EXPORTER_PORT="17018" bash <(curl -sSL https://github.com/ongtungduong/installers/raw/main/postgres-exporter/install.sh)
+EXPORTER_PORT="17018" bash <(curl -sSL https://github.com/ongtungduong/quick-installers/raw/main/postgres-exporter/install.sh)
 ```
 
 **Make sure that you run the queries to create the postgres exporter user and grant access to the user.**

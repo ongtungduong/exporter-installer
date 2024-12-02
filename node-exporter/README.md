@@ -3,7 +3,7 @@
 Run the following command to install node exporter on your Ubuntu server:
 
 ```bash
-bash <(curl -sSL https://github.com/ongtungduong/installers/raw/main/node-exporter/install.sh)
+bash <(curl -sSL https://github.com/ongtungduong/quick-installers/raw/main/node-exporter/install.sh)
 ```
 
 **You can customize the installation by setting environment variables:**
@@ -14,5 +14,5 @@ bash <(curl -sSL https://github.com/ongtungduong/installers/raw/main/node-export
 **For example, to use port 17017, run the following command:**
 
 ```bash
-EXPORTER_PORT="17017" bash <(curl -sSL https://github.com/ongtungduong/installers/raw/main/node-exporter/install.sh)
+EXPORTER_PORT="17017" bash <(curl -sSL https://github.com/ongtungduong/quick-installers/raw/main/node-exporter/install.sh)
 ```
